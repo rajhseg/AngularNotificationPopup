@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Notification popup</title>
+
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="NotificationService/notification-rg.css" rel="stylesheet" />
+
+    <script src="scripts/jquery-1.10.2.min.js" type="application/javascript"></script>
+    <script src="scripts/angular.min.js" type="application/javascript"></script>
+    <script src="scripts/angular-route.min.js" type="application/javascript"></script>
+    <script src="scripts/angular-resource.min.js" type="application/javascript"></script>
+    <script src="NotificationService/notification-rg.js" type="application/javascript"></script>
+
+    <script src="App/app.js" type="application/javascript"></script>
+
+</head>
+
+<body ng-app="notificationApp">
+<h3 style="margin-left: 200px;">Angular Notification Popup Service</h3>
+<div  style="margin-top:100px;margin-left:100px">
+    <div data-ng-controller="mainController">
+        <div class="btn btn-info" ng-click="launch()">Simple notification</div>
+        <div class="btn btn-info" ng-click="advancelaunch()">Advance notification</div>
+        <div class="btn btn-info" ng-click="eventlaunch()">Event notification</div>
+        <div class="btn btn-info" ng-click="noclosebtn()">No Close Button</div>
+        <div class="btn btn-info" ng-click="notitle()">No Title</div>
+    </div>
+</div>
+</body>
+</html>
