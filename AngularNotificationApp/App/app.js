@@ -1,5 +1,5 @@
 /**
- * Created by Goku on 29-01-2017.
+ * Created by Rajesh G on 29-01-2017.
  */
 
 var notificationApp = angular.module('notificationApp',['angularNotification']);
